@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_us"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tenungdung"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        style="@style/TextThongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phienban"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        style="@style/TextThongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thietkeboi"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        style="@style/TextThongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/designer"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/masinhvien"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        style="@style/TextThongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mssv"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lop"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        style="@style/TextThongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tenlop"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</LinearLayout>
