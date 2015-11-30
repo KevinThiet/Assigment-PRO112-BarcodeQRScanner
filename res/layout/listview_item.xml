@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="5dp"
+    android:background="#ffffff"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/ranklabel"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                          " />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:textColor="#343434"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ranklabel" />
+
+    <TextView
+        android:id="@+id/countrylabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="wrap_content"
+        android:textColor="#8b8d94"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranklabel"
+        android:text="@string/countrylabel" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:textColor="#343434"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rank"
+        android:layout_toRightOf="@+id/countrylabel" />
+
+    <TextView
+        android:id="@+id/populationlabel"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#8b8d94"
+        android:layout_marginLeft="3dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        android:text="@string/populationlabel" />
+
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:textColor="#c86470"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country"
+        android:layout_toRightOf="@+id/populationlabel" />
+
+    
+
+    <TextView
+        android:id="@+id/addresslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:textColor="#8b8d94"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/populationlabel"
+        android:text="Công Ty : " />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addresslabel"
+        android:layout_toRightOf="@+id/addresslabel" />
+    
+    <TextView
+        android:id="@+id/tellabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#8b8d94"
+        android:layout_below="@+id/addresslabel"
+        android:text="@string/tel" />
+
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#38b7e6"
+        android:layout_marginTop="-20dp"
+        android:layout_below="@+id/tellabel"
+        android:layout_toRightOf="@+id/tellabel" />
+     <TextView
+        android:id="@+id/ctylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:textColor="#8b8d94"
+        android:layout_below="@+id/tellabel"
+        android:text="@string/address" />
+
+    <TextView
+        android:id="@+id/cty"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="#8b8d94"
+        android:layout_below="@+id/tellabel"
+        android:layout_toRightOf="@+id/ctylabel" />
+    
+    <TextView
+        android:id="@+id/votelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="#8b8d94"
+        android:layout_below="@+id/ctylabel"
+        android:text="                Đánh Gía Sản Phẩm" />
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/votelabel"/>
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:padding="1dp" />
+
+</RelativeLayout>
